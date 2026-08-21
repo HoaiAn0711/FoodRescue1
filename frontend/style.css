@@ -1,0 +1,38 @@
+/* FIX GIAO DIỆN CHUẨN MẪU - GIỮ NGUYÊN HTML CŨ */
+
+/* 1. Nền gradient Mint -> Blue nhạt */
+body {
+  background: linear-gradient(135deg, #e0fcfb 0%, #d8f0fa 100%) !important;
+  background-attachment: fixed !important;
+}
+
+/* 2. Ô nhập liệu (Input) màu xanh ngọc nhạt */
+input, textarea {
+  background-color: #def4f0 !important;
+  border: none !important;
+  border-radius: 12px !important;
+  color: #1f2937 !important;
+}
+
+/* 3. Nút bấm cam gradient chuẩn mẫu có hiệu ứng phát sáng */
+button, .btn-primary, [type="submit"] {
+  background: linear-gradient(90deg, #ff8a58 0%, #ff5745 100%) !important;
+  border: none !important;
+  border-radius: 99px !important;
+  color: #ffffff !important;
+  box-shadow: 0 6px 20px rgba(255, 87, 69, 0.35) !important;
+}
+
+/* 4. Thẻ thông tin user góc trên bên phải */
+header div:last-child, .user-info {
+  background-color: #e0fcfb !important;
+  border: 1px solid #ccf2eb !important;
+  border-radius: 99px !important;
+}
+
+/* 5. Tag "Người nhận" màu vàng cam */
+.badge, [class*="role"] {
+  background-color: #f5a623 !important;
+  color: #ffffff !important;
+  border-radius: 99px !important;
+}
